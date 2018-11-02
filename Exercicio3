@@ -1,0 +1,15 @@
+#Faça um programa que leia 3 números inteiros e mostre o menor deles.
+
+a = int(input('Primeiro valor:   '))
+b = int(input('Segundo Valor:    '))
+c = int(input('Terceiro Valor:   '))
+
+# Quem é o menor
+if a<b and a<c:
+    menor = a
+
+if b<a and b<c:
+    menor = b
+
+if c<a and c<b:
+    menor = c
