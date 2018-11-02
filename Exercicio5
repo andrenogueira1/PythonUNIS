@@ -1,0 +1,5 @@
+def reverse1(t):
+    r = t.split()
+    for i in xrange (len(r)):
+        r[i] = r[i][::-1]
+        return  ''.join (r)
