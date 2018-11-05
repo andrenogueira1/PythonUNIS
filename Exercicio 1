@@ -1,0 +1,5 @@
+a = float(input('Informe a sua idade em dias:'))
+anos = a / 365
+print ('O anos dessa pessoa é de {:.1f}'.format(anos))
+meses = a / 30.5
+print ('O meses dessa pessoa é de {:.1f}'.format(meses))
